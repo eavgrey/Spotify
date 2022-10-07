@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: lightgreen;
+  color: black;
+}
+.track-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.track-duration {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.track-img {
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  background-image: URL("https://source.unsplash.com/Qrspubmx6kE/640x360");
+  background-size: cover;
+  background-position: center;
+  border-radius: 15%;
+}
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.track-name {
+  font-size: 3rem;
+  margin: 0;
+}
+.track-artist {
+  font-size: 1.5rem;
+  margin: 0;
+  margin-bottom: 40px;
+}
+.track-info {
+  text-align: center;
+}
+.seek-slider,
+.volume-slider {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 5px;
+  background: black;
+  opacity: 0.7;
+}
+.seek-slider::-webkit-slider-thumb,
+.volume-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.seek-slider:hover,
+.volume-slider:hover {
+  opacity: 1;
+}
+
+.seek-slider {
+  width: 75%;
+}
+
+.volume-slider {
+  width: 50%;
+}
+.volume {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.pause:hover,
+.prev-track:hover,
+.next-track:hover,
+.random:hover,
+.repeat:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+.pause,
+.prev-track,
+.next-track,
+.random,
+.repeat {
+  padding: 0 20px;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+.sliders {
+  width: 75%;
+  max-width: 400px;
+}
+i.active {
+  border-radius: 50%;
+  border: 2px solid black;
+  padding: 4px;
+}
+@media (max-width: 500px) {
+  .btns {
+    gap: 10px;
+  }
+  .pause,
+  .prev-track,
+  .next-track,
+  .random,
+  .repeat {
+    padding: 0 10px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+  }
+  .track-name {
+    font-size: 2rem;
+  }
+  .track-artist {
+    font-size: 1.2rem;
+
+    margin-bottom: 30px;
+  }
+  .fa-2x {
+    font-size: 1em;
+  }
+  .fa-5x {
+    font-size: 2.5em;
+  }
+  .seek-slider,
+  .volume-slider {
+    height: 3px;
+  }
+  .track-img {
+    margin: 25px;
+    height: 200px;
+    width: 200px;
+    background-image: URL("https://source.unsplash.com/Qrspubmx6kE/640x360");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15%;
+  }
+}
