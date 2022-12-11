@@ -30,8 +30,8 @@ let trackList = [
       {
         name: "The Joker And The Queen",
         artist: "Ed Sheeran",
-        image: "./media/Ed_Sheeran_-_The_Joker_and_the_Queen.png",
-        path: "./media/02.mp3"
+        image: "/media/Ed_Sheeran_-_The_Joker_and_the_Queen.png",
+        path: "/media/02.mp3"
       },
       {
         name: "Maybe I Maybe You",
@@ -55,7 +55,7 @@ let trackList = [
         name: "Enemy",
         artist: "Imagine Dragons",
         image: "./media/05.jpg",
-        path: "./media/imagine-dragons_-_enemy.mp3"
+        path: "media/imagine-dragons_-_enemy.mp3"
       },
       {
         name: "Diamonds",
@@ -66,8 +66,8 @@ let trackList = [
       {
         name: "Shape of my heart",
         artist: "Sting",
-        image: "/media/07.jpg",
-        path: "/media/sting_-_shape-of-my-heart.mp3"
+        image: "./media/07.jpg",
+        path: "./media/sting_-_shape-of-my-heart.mp3"
       },
 
    
