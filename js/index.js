@@ -30,38 +30,38 @@ let trackList = [
       {
         name: "The Joker And The Queen",
         artist: "Ed Sheeran",
-        image: "/media/Ed_Sheeran_-_The_Joker_and_the_Queen.png",
-        path: "/media/02.mp3"
+        image: "./media/Ed_Sheeran_-_The_Joker_and_the_Queen.png",
+        path: "./media/02.mp3"
       },
       {
         name: "Maybe I Maybe You",
         artist: "Scorpions",
-        image: "/media/scorpions.jpg",
-        path: "/media/Maybe I Maybe You.aac"
+        image: "./media/scorpions.jpg",
+        path: "./media/Maybe I Maybe You.aac"
       },
       {
         name: "I Will Find You",
         artist: "Audiomachine",
-        image: "/media/03.jpg",
-        path: "/media/Audiomachine-I Will Find You-kissvk.com.mp3"
+        image: "./media/03.jpg",
+        path: "./media/Audiomachine-I Will Find You-kissvk.com.mp3"
       },
       {
         name: "Difficult",
         artist: "Eminem",
-        image: "/media/04.jpg",
-        path: "/media/Eminem - Difficult.mp3"
+        image: "./media/04.jpg",
+        path: "./media/Eminem - Difficult.mp3"
       },
       {
         name: "Enemy",
         artist: "Imagine Dragons",
-        image: "/media/05.jpg",
-        path: "/media/imagine-dragons_-_enemy.mp3"
+        image: "./media/05.jpg",
+        path: "./media/imagine-dragons_-_enemy.mp3"
       },
       {
         name: "Diamonds",
         artist: "Sam Smith",
-        image: "/media/06.jpeg",
-        path: "/media/Sam Smith-Diamonds.mp3 "
+        image: "./media/06.jpeg",
+        path: "./media/Sam Smith-Diamonds.mp3 "
       },
       {
         name: "Shape of my heart",
