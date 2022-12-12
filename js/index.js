@@ -31,7 +31,7 @@ let trackList = [
         name: "The Joker And The Queen",
         artist: "Ed Sheeran",
         image: "./media/Ed_Sheeran_-_The_Joker_and_the_Queen.png",
-        path: "./media/02.mp3"
+        path: "/home/eavgrey/Рабочий стол/Programm (little dog)/Spotify/media/02.mp3"
       },
       {
         name: "Maybe I Maybe You",
