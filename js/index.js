@@ -36,7 +36,7 @@ let trackList = [
       {
         name: "Maybe I Maybe You",
         artist: "Scorpions",
-        image: "/media/scorpions.jpg",
+        image: "./media/scorpions.jpg",
         path: "/home/eavgrey/Рабочий стол/Programm (little dog)/Spotify/media/Maybe I Maybe You.aac"
       },
       {
